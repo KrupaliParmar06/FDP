@@ -1,0 +1,67 @@
+div{
+    width: 20vw;
+    height: 50vh;
+    color: pink;
+    background-color: blueviolet;
+    border: 10px solid yellow;
+    padding: 10px 20px 50px;
+     margin: 10px ;
+    border: 5px solid #ff4000;
+    /* display: inline-block; */
+    float: left;
+    border-radius: 10px 100px 20px;
+    font-size: 30px;
+    text-align: center;
+    background-image: url(../Images/Landscape-Color.jpg);
+    background-size: cover;
+    background-size: 50pc;
+    background-repeat: no-repeat;
+    opacity: 0.7;
+}
+.div2{
+    width: 200px;
+    height: 350px;
+    color: pink;
+    background-color: blue;
+    border: 10px solid red !important;
+    padding: 10px 20px 50px;
+    margin: 10px ;
+    border: 5px solid crimson;
+
+}
+#d2{
+    color: red;
+background-image: url(../Images/pexels-valiphotos-589840.jpg);
+background-size: cover;
+}
+#d3{
+    color: red;
+    background-image: url(../Images/image3.jpg);
+    background-size: cover;
+
+}
+#d4{
+    color: red;
+    background-image: url(../Images/images.jpg);
+    background-size: cover;
+}
+.w500{
+    width: 100px;
+}
+div:hover{
+    background-image: url(../Images/image3.jpg);
+}
+#d5{
+    height: 350px;
+    width: 200px;
+    color: red;
+    background-image: url(../Images/images.jpg);
+    background-size: cover;
+    overflow: scroll;
+}
+@media  (min-width: 200px;) and (min-height: 450px){
+    #display .display{
+        width: 95%;
+    }
+}
+    
