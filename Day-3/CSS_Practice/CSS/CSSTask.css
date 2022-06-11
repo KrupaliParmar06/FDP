@@ -1,0 +1,37 @@
+body{
+    background-color: aquamarine;
+}
+p{
+    margin: 10px;
+    width: 300px;
+    height: auto;
+    max-height: 250px;
+    background-color: azure;
+    color: maroon;
+    padding: 5px;
+    font-size: larger;
+    text-align: justify;
+    position:relative;
+    display: inline-block;
+    background-size: contain;
+}
+.P1{
+position: inherit;
+background-color: darkkhaki;
+top: 5px;
+}
+.P2{
+background-color: honeydew;
+bottom: 5px;
+right: 5px;
+position: absolute;
+padding-block-start: 10px;
+}
+.H1{
+    position: absolute;
+    height: 100px;
+    width: fit-content;
+    margin: 10px;
+    padding-left: 10px;
+    background-size: cover;
+}
