@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        
+        <title>
+            Homepage
+        </title>
+        <style type="text/CSS">
+            body{
+        background-color: azure;
+        background: -moz-radial-gradient(lightpink,skyblue);
+            }
+        
+        </style>
+        <link rel="stylesheet" type="text/CSS" href="CSS_Practice/Font/Font.css">
+    <script type="text/javascript">
+        document.write("Hello");
+        alert("This is an alert msg");
+        console.log("This is console");
+        function PrintName(){
+       var name=prompt("This is prompt");
+       document.getElementById("PrintName").innerHTML=name;
+        }
+        function color(){
+            var n = prompt("This is prompt")
+       document.getElementById("c1").style.backgroundColor=n;
+        }
+    </script>
+    </head>
+    <body id="c1">
+        <button onclick="PrintName()">Click</button>
+        <button onclick="color()">Change color</button>
+        <h1>welcome <span id="PrintName"></span></h1>
+        <p class="P1">
+            Gujarat Technological University
+
+        </p>
+        <section class="slider">
+            <div class="slider_img float-left">
+                <img src="../Day-2/CSS_Practice/Images/pexels-valiphotos-589840.jpg" class="Img1">
+
+                <img src="../Day-2/CSS_Practice/Images/images.jpg" class="Img1" 
+                onclick="document.getElementById('Img2').src='../Day-2/CSS_Practice/Images/pexels-valiphotos-589840.jpg'
+                ">
+                <img src="../Day-2/CSS_Practice/Images/image3.jpg" class="Img1">
+
+            </div>
+            <div class="slider_img1">
+                <img src="../Day-2/CSS_Practice/Images/Landscape-Color.jpg" id="Img2">
+
+            </div>
+        </section>
+        <div class="clear">
+        <p class="P2">
+            Silver Oak University
+
+        </p>
+        <button id="show" onclick="document.getElementById('Details').style.fontSize='40px';">Style</button>
+
+        <button id="show" onclick="document.getElementById('Details').innerHTML='This is text';">Show</button>
+        <button id="hide" onclick="document.getElementById('Details').innerHTML='';">Hide</button>
+
+
+        <p id="Details">Hello</p>
+        </div>
+    </body>
+</html>

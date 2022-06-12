@@ -1,0 +1,59 @@
+@font-face {
+    font-family: Silverkids;
+
+    src: url(../Font/Silverkids.otf);
+    font-size: xx-large;
+}
+.P1{
+    font-family: Silverkids;
+    font-size: xx-large;
+    color: maroon;
+    text-align: center;
+    text-shadow: 2px 2px 2px peachpuff;
+    
+}
+.P2{
+    font-family: Silverkids;
+    font-size: xx-large;
+    color: blue;
+    text-align: center;
+    text-shadow: 2px 2px 2px peachpuff;
+    
+}
+#Details{
+    font-family: Silverkids;
+    font-size: xx-large;
+    color: blue;
+    text-align: center;
+    text-shadow: 2px 2px 2px peachpuff;
+}
+button{
+    align-self: center;
+}
+.Img1{
+    height: 200px;
+    width: 200px;
+    margin-top: 50px;
+   
+}
+#Img2{
+    height: 600px;
+    width: 600px;
+    margin-top: 100px;
+    
+}
+.slider_img{
+    width: 200px;
+}
+
+.slider_img img{
+    width: 200px;
+}
+.float-left{
+    float: left;
+    margin: 10px;
+    padding: 20px;
+}
+.clear{
+    clear: both;
+}
